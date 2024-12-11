@@ -1,0 +1,62 @@
+{
+  "skills": {
+    "languages": ["Python", "JavaScript", "Java", "HTML", "CSS", "SQL", "Bash"],
+    "ml": [
+      "TensorFlow",
+      "Keras",
+      "Scikit-learn",
+      "Pandas",
+      "Numpy",
+      "Matplotlib",
+      "Seaborn"
+    ],
+    "analysisVisualization": [
+      "Tableau",
+      "Power BI",
+      "Excel",
+      "Pandas",
+      "Numpy",
+      "Airflow",
+      "Matplotlib",
+      "AWS Glue",
+      "Beautiful Soup",
+      "D3.js",
+      "Google Sheets",
+      "Plotly",
+      "Data Studio",
+      "Seaborn"
+    ]
+  },
+
+  "education": {
+    "bachelor": {
+      "degree": "Bachelor of Science in Computer Science",
+      "school": "Kebbi State University of Science And Technology Aleiro, Kebbi State.",
+      "graduation": "Dec, 2017",
+      "relevantCourses": [
+        "Operating Systems",
+        "Data Structures",
+        "Algorithms",
+        "Database Management Systems",
+        "Programming Languages",
+        "Calculus",
+        "Linear Algebra"
+      ]
+    },
+    "master": {
+      "degree": "Master of Science in Computer Science",
+      "school": "École Pour L'Informatique Et Les Techniques Avancées Kremlim Bicetre, Île-de-France.",
+      "graduation": "Dec, 2023",
+      "relevantCourses": [
+        "Foundation of Statistics and Machine Learning",
+        "Data Visualization",
+        "Computer Vision",
+        "Natural Language Processing",
+        "Business Intelligence",
+        "Relational Databases",
+        "Big Data",
+        "Data Exploration and Analysis"
+      ]
+    }
+  }
+}

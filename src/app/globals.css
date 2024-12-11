@@ -9,13 +9,35 @@
   color: white;
 }
 
-:root{
-  --gradient-1: #CD55B3
-  --gradient-2: #5622AF
-}
-
 body {
-  background: linear-gradient(to bottom, #CD55B3,#5622AF);
+  background: linear-gradient(to bottom, #222222, #000000);
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+
+.hype {
+  color: rgb(59 130 246 / var(--tw-bg-opacity, 1));
+}
+
+/* slim and dark scrollbars */
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333333;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555555;
+}
+
+firefox * {
+  scrollbar-width: 3px;
+  scrollbar-color: #333333 #000000;
 }

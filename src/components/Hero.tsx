@@ -1,5 +1,5 @@
 import Image from "next/image";
-import abubakar from "../assets/me.png";
+import abubakar from "@/assets/me.jpg";
 import LinkButton from "./LinkButton";
 const Hero = () => {
   return (

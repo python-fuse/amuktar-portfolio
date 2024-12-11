@@ -8,7 +8,7 @@ const page = async () => {
   return (
     <div className="flex gap-x-6 mt-2 h-[calc(100dvh-80px)]">
       <div className="w-2/5 rounded-xl overflow-hidden">
-        <Image src={abubakar} alt="Abubakar" />
+        <Image src={abubakar} alt="Abubakar" width={100} className="w-full" />
       </div>
       <About myInfo={myInfo} />
     </div>

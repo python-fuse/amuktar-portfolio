@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+:root{
+  --gradient-1: #CD55B3
+  --gradient-2: #5622AF
+}
+
+body {
+  background: linear-gradient(to bottom, #CD55B3,#5622AF);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}

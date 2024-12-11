@@ -1,5 +1,5 @@
 import Image from "next/image";
-import abubakar from "@/assets/me.jpg";
+import abubakar from "@/assets/analytics.png";
 import { getData } from "@/actions/actions";
 import About from "./_components/About";
 

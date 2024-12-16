@@ -16,7 +16,7 @@ const Header = async () => {
       <div className="flex gap-x-2">
         {myInfo.contact.map((contact, idx) => {
           return (
-            <Link href={contact.url} className="hover:underline">
+            <Link key={idx} href={contact.url} className="hover:underline">
               {contact.platform}
             </Link>
           );

@@ -15,13 +15,15 @@ const ProjectView = ({
           <h3 className="text-2xl font-semibold text-blue-500">
             {project.title}
           </h3>
-          <a
-            className="text-blue-600/90 text-sm"
-            target="_blank"
-            href={project.project_url}
-          >
-            Visit
-          </a>
+          {project.project_url && (
+            <a
+              className="text-blue-600/90 text-sm"
+              target="_blank"
+              href={project.project_url}
+            >
+              Visit
+            </a>
+          )}
           <div className="space-x-2">
             {project.tools.map((tech, index) => (
               <span
@@ -35,7 +37,9 @@ const ProjectView = ({
 
           <ul className="list-disc list-inside">
             {project.activities.map((activity, index) => (
-              <li className="text-sm">{activity}</li>
+              <li key={index} className="text-sm">
+                {activity}
+              </li>
             ))}
           </ul>
         </div>

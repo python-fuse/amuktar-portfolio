@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter, Outfit } from "next/font/google";
+import { IBM_Plex_Sans as Outfit } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 

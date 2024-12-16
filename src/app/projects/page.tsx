@@ -1,11 +1,11 @@
 import { getData } from "@/actions/actions";
-import About from "./_components/About";
+import Projects from "./_components/Projects";
 
 const page = async () => {
   const myInfo = await getData();
   return (
     <div className=" my-2 ">
-      <About myInfo={myInfo} />
+      <Projects myInfo={myInfo} />
     </div>
   );
 };

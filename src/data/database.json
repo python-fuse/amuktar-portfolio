@@ -58,5 +58,205 @@
         "Data Exploration and Analysis"
       ]
     }
+  },
+  "experience": [
+    {
+      "company": "EPITA Kremlim Bicetre, Île-de-France.EPITA Kremlim Bicetre, Île-de-France.",
+      "position": "Research Student",
+      "startDate": "October, 2022",
+      "endDate": "Februabry, 2023",
+      "activities": [
+        "Collaborated and employed the BERT and Doc2vec models to develop a deep learning NLP model for detecting and recommending musical moods using lyrics, song titles, and artist names."
+      ]
+    },
+    {
+      "company": "OPAY Micro Finance Bank, Benue State",
+      "position": "Operations Analyst",
+      "startDate": "June, 2020",
+      "endDate": "Februabry, 2022",
+      "activities": [
+        "Evaluated and identified opportunities to drive process improvements, positively impacting customer experience and driving growth by 10% within 1 year.",
+        "Monitored and analyzed industry trends resulting in a 5% improvement in product or service offerings",
+        "Removed barriers to drive end-to-end resolution of servicing and billing,which boosted customer stickiness by 25%",
+        "Achieved a 24% increase in sales through the implementation of successful marketing outreach strategies"
+      ]
+    }
+  ],
+  "certifications": [
+    { "title": "IBM Data Engineering Coursera", "date": "2021" },
+    { "title": "Data Scientist with Python DataCamp", "date": "2022" },
+    { "title": "Data Analysis with SQL DataCamp", "date": "2022" },
+    {
+      "title": "KPMG Data Analytics Consulting Virtual Internship Forage",
+      "date": "2022"
+    }
+  ],
+  "hobbies": ["Football", "Cycling", "Swimming", "Reading"],
+
+  "contact": [
+    { "platform": "Email", "url": "mailto:ammuktar498@gmail.com" },
+    { "platform": "Phone", "url": "tel:+33753369755" },
+    {
+      "platform": "LinkedIn",
+      "url": "https://www.linkedin.com/in/abubakar-muhammed-muktar/"
+    },
+    { "platform": "GitHub", "url": "https://github.com/Sadiksmart0" }
+  ],
+
+  "projects": {
+    "data_analytics": [
+      {
+        "title": "Analysing Employee Performance for Hr Analytics– Personal Project (May 2023)",
+        "tools": ["Python", "MYSQL"],
+        "project_url": "https://app.powerbi.com/groups/fc73f497-c330-4359-b4bc-ad746c7b7966/dashboards/b24cd724-e5a6-49a2-a540-d6111c0bd6d7?ctid=3534b3d7-316c-4bc9-9ede-605c860f49d2&pbi_source=linkShare",
+        "activities": [
+          "Utilized SQL to analyze a real-world database and extract useful information",
+          "Preprocessed the data using Python for improved performance",
+          "Removed duplicate rows from the dataset",
+          "Removed rows with irrelevant data type values in numeric columns",
+          "Removed irrelevant values from each column and performed validation checks for data integrity",
+          "Exported the cleaned dataset as a .csv file, using UTF-8 encoding",
+          "Converted the preprocessed dataset into an SQL file",
+          "Improved data quality by removing duplicates and irrelevant data",
+          "Ensured data integrity by validating values, checking inconsistencies or discrepancies, and enforcing proper data types, units, or formats."
+        ]
+      },
+      {
+        "title": "ANALYSIS OF SUPERSTORE PROFITS – Personal Project (April 2023)",
+        "tools": ["PowerBi"],
+        "project_url": "https://app.powerbi.com/reportEmbed?reportId=1b37f84f-c7b3-47b2-9d50-5938ba46fd61&autoAuth=true&ctid=3534b3d7-316c-4bc9-9ede-605c860f49d2",
+        "activities": [
+          "Power BI to create an interactive and visually appealing dashboard for analyzing London bike sharing data.",
+          "Processed and transformed the raw data to ensure its suitability for analysis, including data cleaning, formatting, and structuring.",
+          "Developed insightful visualizations that depicted the demand for bikes based on various factors such as time of the year, month, and day.",
+          "Identified peak hours and periods of high bike demand, providing valuable insights for resource allocation and planning.",
+          "Conducted statistical analysis to identify patterns and trends in bike usage, helping to optimize bike availability during peak periods.",
+          "Advised on the optimal timing for bike maintenance, considering usage patterns and minimizing operational disruptions."
+        ]
+      },
+      {
+        "title": "STATISTICAL ANALYSIS OF LIGUE 1 – Personal Project",
+        "tools": ["Python", "Streamlit", "Dash", "Plotly Express", "Pandas"],
+        "project_url": "https://github.com/sadiksmart0/Analysis-of-Ligue.git",
+        "activities": [
+          "Developed an interactive web application using Streamlit to visualize 11 seasons of Ligue 1 football data",
+          "Implemented comprehensive data cleaning and preparation workflows using Python and Pandas",
+          "Created dynamic visualizations using Plotly Express to showcase team performance metrics",
+          "Conducted statistical analysis of key performance indicators including goals, points, and cards",
+          "Built user-friendly dashboards displaying historical trends and team comparisons",
+          "Performed exploratory data analysis (EDA) to uncover patterns in team performances",
+          "Engineered features to track seasonal progress and team rankings over time",
+          "Implemented data filtering and interactive components for user-driven analysis"
+        ]
+      }
+    ],
+    "data_science": [
+      {
+        "title": "USED CAR PRICES PREDICTION MODEL - LINEAR REGRESSION",
+        "tools": [
+          "Python",
+          "Sklearn",
+          "FastAPI",
+          "Streamlit",
+          "PostgreSQL",
+          "MLFlow",
+          "Pandera",
+          "Grafana",
+          "Airflow"
+        ],
+        "project_url": "",
+        "activities": [
+          "Built data ingestion and preprocessing pipelines for used car price data",
+          "Developed and trained linear regression model using Sklearn for price prediction",
+          "Implemented model serving architecture using FastAPI for RESTful endpoints",
+          "Set up MLFlow for model versioning, monitoring and automated retraining",
+          "Created automated workflows using Airflow for prediction job scheduling",
+          "Designed Grafana dashboards for visualizing model performance metrics",
+          "Built interactive Streamlit interface for model interaction and results display",
+          "Integrated PostgreSQL database for storing model data and predictions",
+          "Implemented data validation using Pandera to ensure data quality"
+        ]
+      },
+      {
+        "title": "BANK MARKETING CAMPAIGN MODEL - LOGISTIC REGRESSION",
+        "tools": [
+          "Python",
+          "Pandas",
+          "PySpark",
+          "Streamlit",
+          "Dash",
+          "Plotly Express",
+          "Jupyter Notebook",
+          "MLFlow"
+        ],
+        "project_url": "View project Source Code here",
+        "activities": [
+          "Developed a machine learning model to predict customer likelihood of subscribing to a long-term deposit for targeted advertising in a bank marketing campaign",
+          "Utilized the Bank Marketing dataset obtained from the UCI Machine Learning Repository",
+          "Analyzed and preprocessed the dataset, including handling missing values and categorical variables",
+          "Conducted exploratory data analysis to gain insights into the dataset and identify patterns",
+          "Implemented the predictive model using PySpark and Jupyter Notebook",
+          "Leveraged Python libraries such as Pandas for data manipulation and MLFlow for tracking and managing experiments",
+          "Fine-tuned the model parameters and evaluated its performance using appropriate metrics",
+          "Collaborated with the marketing team to interpret the model results and provide actionable recommendations",
+          "Successfully delivered a solution that improved the targeting of advertising efforts, leading to cost savings and increased subscription rates"
+        ]
+      },
+      {
+        "title": "MUSIC MOOD DETECTION AND RECOMMENDATION DEEP LEARNING MODEL WITH BERT",
+        "tools": [
+          "Python",
+          "TensorFlow",
+          "Pandas",
+          "BERT",
+          "Streamlit",
+          "FastAPI",
+          "Postgres",
+          "Airflow",
+          "Heroku"
+        ],
+        "project_url": "https://github.com/anthonybassaf/music-mood-recognition.git",
+        "activities": [
+          "Collaborated in a group project focused on music mood detection and recommendation",
+          "Utilized a variety of technologies, including deep learning models, BERT, and the MSD dataset",
+          "Conducted exploratory data analysis (EDA) using Streamlit to gain insights into the music dataset and understand its characteristics",
+          "Employed deep learning techniques and TensorFlow framework to develop a mood detection model",
+          "Utilized BERT (Bidirectional Encoder Representations from Transformers) for natural language processing tasks related to mood analysis",
+          "Integrated the developed model into a FastAPI application for efficient and scalable deployment",
+          "Leveraged Airflow for scheduling and managing data pipelines, ensuring smooth data processing and model training",
+          "Utilized Postgres as the database system to store and manage the music metadata and mood-related information",
+          "Deployed the application on Heroku, making it accessible to users for music mood detection and recommendation",
+          "Collaborated with team members, contributing to the project's overall design, implementation, and testing",
+          "Successfully delivered a functional music mood detection and recommendation system, enhancing the user experience and providing personalized music recommendations based on mood"
+        ]
+      }
+    ],
+    "data_engineering": [
+      {
+        "title": "END-TO-END DATA PIPELINE FOR YOUTUBE TRENDING DATASET AWS CLOUD",
+        "tools": [
+          "AWS S3",
+          "AWS Glue",
+          "AWS Athena",
+          "AWS Lambda",
+          "AWS QuickSight",
+          "Pandas",
+          "Python"
+        ],
+        "project_url": "View project Source Code here",
+        "activities": [
+          "Created an end-to-end data pipeline for processing YouTube trending dataset using AWS Cloud",
+          "Utilized AWS S3 for data storage and AWS Glue for data cataloging and ETL (Extract, Transform, Load)",
+          "Leveraged AWS Athena for querying and analyzing the dataset",
+          "Developed Lambda functions to automate data ingestion and processing tasks",
+          "Used Pandas and Python for data manipulation, transformation, and cleaning",
+          "Integrated AWS QuickSight for data visualization and reporting",
+          "Implemented source code for the project to provide transparency and accessibility",
+          "Demonstrated proficiency in AWS services, Pandas, and Python",
+          "Showcased ability to design and implement a scalable and efficient data pipeline",
+          "Gained experience in working with large datasets and handling data transformations and analysis in a cloud environment"
+        ]
+      }
+    ]
   }
 }

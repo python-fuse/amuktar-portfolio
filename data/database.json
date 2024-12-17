@@ -27,7 +27,6 @@
       "Seaborn"
     ]
   },
-
   "education": {
     "bachelor": {
       "degree": "Bachelor of Science in Computer Science",
@@ -83,26 +82,46 @@
     }
   ],
   "certifications": [
-    { "title": "IBM Data Engineering Coursera", "date": "2021" },
-    { "title": "Data Scientist with Python DataCamp", "date": "2022" },
-    { "title": "Data Analysis with SQL DataCamp", "date": "2022" },
+    {
+      "title": "IBM Data Engineering Coursera",
+      "date": "2021"
+    },
+    {
+      "title": "Data Scientist with Python DataCamp",
+      "date": "2022"
+    },
+    {
+      "title": "Data Analysis with SQL DataCamp",
+      "date": "2022"
+    },
     {
       "title": "KPMG Data Analytics Consulting Virtual Internship Forage",
       "date": "2022"
     }
   ],
   "hobbies": ["Football", "Cycling", "Swimming", "Reading"],
-
   "contact": [
-    { "platform": "Email", "url": "mailto:ammuktar498@gmail.com" },
-    { "platform": "Phone", "url": "tel:+33753369755" },
+    {
+      "platform": "Email",
+      "url": "mailto:ammuktar498@gmail.com"
+    },
+    {
+      "platform": "Phone",
+      "url": "tel:+33753369755"
+    },
     {
       "platform": "LinkedIn",
       "url": "https://www.linkedin.com/in/abubakar-muhammed-muktar/"
     },
-    { "platform": "GitHub", "url": "https://github.com/Sadiksmart0" }
+    {
+      "platform": "GitHub",
+      "url": "https://github.com/Sadiksmart0"
+    },
+    {
+      "platform": "Facebook",
+      "url": "https://facebook.com.abuMuktar"
+    }
   ],
-
   "projects": {
     "data_analytics": [
       {

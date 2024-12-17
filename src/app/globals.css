@@ -41,3 +41,25 @@ firefox * {
   scrollbar-width: 3px;
   scrollbar-color: #333333 #000000;
 }
+
+/* Cool input design */
+input,
+textarea {
+  background: #333333;
+  border: 1px solid #333333;
+  border-radius: 5px;
+  color: white;
+  padding: 5px;
+  margin: 5px;
+}
+
+/* Cool select design */
+select {
+  background: #333333;
+  border: 1px solid #333333;
+  border-radius: 5px;
+  color: white;
+  padding: 5px;
+  margin: 5px;
+  cursor: pointer;
+}
